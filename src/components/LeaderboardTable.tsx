@@ -91,7 +91,7 @@ export function LeaderboardTable({ teams, totalSaved }: LeaderboardTableProps) {
             Tabla General de Posiciones
           </h3>
           <p className="text-xs text-zinc-400">
-            Puntaje acumulado ponderado (Salvos: ×10, Bautizos: ×15, Invitados: ×3)
+            Puntaje acumulado (Salvos: 1 pt, Visitantes: 2 pts, Bautizos: 3 pts)
           </p>
         </div>
 

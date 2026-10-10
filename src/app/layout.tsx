@@ -13,8 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Campaña Jóvenes Monte Calvario | Ranking de Equipos",
-  description: "Dashboard ejecutivo y ranking en tiempo real de la Campaña Jóvenes Monte Calvario.",
+  title: "IBFMC",
+  description: "Campaña Jóvenes Monte Calvario - Dashboard Ejecutivo",
+  icons: {
+    icon: "/jovenes.png",
+    apple: "/jovenes.png",
+  },
 };
 
 export default function RootLayout({

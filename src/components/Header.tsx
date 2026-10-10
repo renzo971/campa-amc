@@ -41,15 +41,15 @@ export function Header({
     <header className="glass-panel sticky top-0 z-30 px-4 sm:px-6 py-4 border-b border-zinc-800/80 mb-6 sm:mb-8 backdrop-blur-xl">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         {/* Título y subtítulo */}
-        <div>
-          <div className="flex items-center gap-3 sm:gap-4 flex-wrap">
-            <img
-              src="/jovenes.png"
-              alt="Logo Jóvenes Monte Calvario"
-              className="w-11 h-11 sm:w-14 sm:h-14 object-contain filter drop-shadow-[0_0_12px_rgba(255,255,255,0.85)] transition-transform hover:scale-105"
-            />
+        <div className="flex items-center gap-4 sm:gap-6">
+          <img
+            src="/jovenes.png"
+            alt="Logo Jóvenes Monte Calvario"
+            className="h-16 sm:h-20 md:h-24 w-auto object-contain filter drop-shadow-[0_0_16px_rgba(255,255,255,0.95)] transition-transform hover:scale-105 shrink-0"
+          />
+          <div>
             <div className="flex items-center gap-2.5 flex-wrap">
-              <h1 className="text-xl sm:text-2xl font-extrabold tracking-tight bg-gradient-to-r from-white via-zinc-100 to-zinc-300 bg-clip-text text-transparent">
+              <h1 className="text-xl sm:text-2xl md:text-3xl font-extrabold tracking-tight bg-gradient-to-r from-white via-zinc-100 to-zinc-300 bg-clip-text text-transparent">
                 Campaña Jóvenes Monte Calvario
               </h1>
               <span className="hidden sm:inline-block text-zinc-500 font-light">|</span>
@@ -57,9 +57,8 @@ export function Header({
                 REPORTE GENERAL
               </span>
             </div>
-          </div>
 
-          <div className="flex items-center gap-3 mt-1.5 text-xs text-zinc-400 flex-wrap">
+            <div className="flex items-center gap-3 mt-2 text-xs text-zinc-400 flex-wrap">
             <div className="flex items-center gap-1.5">
               <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
               <span>Última sincronización: <strong className="text-zinc-300">{formatDate(lastUpdated)}</strong></span>
@@ -87,6 +86,7 @@ export function Header({
               )}
             </div>
           </div>
+        </div>
         </div>
 
         {/* Acciones */}

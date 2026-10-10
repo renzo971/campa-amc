@@ -14,9 +14,9 @@ import {
 
 // Ponderación de puntaje por métrica
 export const SCORE_WEIGHTS = {
-  SAVED: 10,
-  BAPTISMS: 15,
-  GUESTS: 3,
+  SAVED: 1,
+  GUESTS: 2,
+  BAPTISMS: 3,
 };
 
 // Meta global de salvos estimada para el indicador de progreso
