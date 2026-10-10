@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dashboard Ejecutivo de Campaña | Ranking de Equipos",
-  description: "Tablero ejecutivo y seguimiento en tiempo real de métricas, ranking y evidencias de campaña.",
+  title: "Campaña Jóvenes Monte Calvario | Ranking de Equipos",
+  description: "Dashboard ejecutivo y ranking en tiempo real de la Campaña Jóvenes Monte Calvario.",
 };
 
 export default function RootLayout({

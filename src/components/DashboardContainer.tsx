@@ -73,7 +73,7 @@ export function DashboardContainer({ initialData }: DashboardContainerProps) {
       <footer className="border-t border-zinc-900 bg-zinc-950/80 py-6 text-center text-xs text-zinc-500">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <span>
-            Dashboard Ejecutivo de Campaña • Conectado con Google Sheets API v4
+            Campaña Jóvenes Monte Calvario • Conectado con Google Sheets API v4
           </span>
           <span className="text-zinc-600">
             {data.kpis.activeTeamsCount} equipos activos • {data.kpis.totalReports} reportes procesados
